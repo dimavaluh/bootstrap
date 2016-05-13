@@ -1,5 +1,10 @@
+.body {
+	width: 100%;
+}
 .header {
-	width: auto;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 	position: fixed;
 	z-index: 3;
 }
@@ -67,7 +72,7 @@
 	}
 	.product-reviews {
 		color: #d17581;
-		margin: 20px;	
+		margin: 20px 20px 20px 0;	
 	}
 	.product-rating {
 		color: #d17581;
@@ -88,6 +93,7 @@
 	border-top: 1px solid #f0f0f0;
 	height: 120px;
 	margin: 20px 0 0;
+	padding: 0;
 }
 .footer p {
 	margin: 50px 0;
